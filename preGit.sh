@@ -13,3 +13,8 @@ gofmt -s -w hello/hello_test.go
 go test -v -coverprofile=c0.out -covermode=atomic github.com/mchirico/go_test/hello
 go test -v -coverprofile=c1.out -covermode=atomic github.com/mchirico/go_test/utils
 go vet -v github.com/mchirico/go_test/hello github.com/mchirico/go_test/utils
+
+
+# Mock just area
+# mockgen -destination=./mocks/mock_stuff.go -package=mocks github.com/mchirico/go_test/configs/mocks Area
+
