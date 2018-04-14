@@ -4,6 +4,15 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/437d440d9cf5fbe592a6/maintainability)](https://codeclimate.com/github/mchirico/go_test/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/437d440d9cf5fbe592a6/test_coverage)](https://codeclimate.com/github/mchirico/go_test/test_coverage)
 
-# go_test
+## Testing in Go
 
-Simple Go Test
+Testing main exit status err, based
+on flag input.
+
+
+```bash
+git checkout tags/v1.0
+
+```
+
+
