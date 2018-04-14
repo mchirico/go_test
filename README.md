@@ -11,8 +11,32 @@ on flag input.
 
 
 ```bash
-git checkout tags/v1.0
+git checkout tags/v1.1
+
+```
+
+```bash
+# Install
+go get github.com/golang/mock/gomock
+go get github.com/golang/mock/mockgen
+
+# If you want, you can build mockgen in the current directory
+
+go build github.com/golang/mock/mockgen
+```
+
+
+```bash
+mockgen net/http Get
 
 ```
 
 
+
+
+
+
+```bash
+mockgen -destination=./mocks/mock_stuff.go -package=mocks database/sql/driver Conn,Driver
+
+```
