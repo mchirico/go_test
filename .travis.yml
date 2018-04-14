@@ -12,6 +12,7 @@ install:
 
 script:
 - go test -v -coverprofile=c0.out -covermode=atomic github.com/mchirico/go_test/hello
+- go test -v -coverprofile=c1.out -covermode=atomic github.com/mchirico/go_test/utils
 
 
 before_install:
