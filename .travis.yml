@@ -2,7 +2,7 @@ language: go
 sudo: required
 dist: trusty
 go:
-- '1.10'
+- '1.11'
 os:
 - linux
 install:

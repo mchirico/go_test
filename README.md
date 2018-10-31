@@ -9,6 +9,22 @@
 Testing main exit status err, based
 on flag input.
 
+## Creating Work Environment
+
+Run the following command to create `go_test`, which will become your work environment.
+
+```bash
+#!/bin/bash
+mkdir -p go_test
+cd go_test
+wget https://gist.githubusercontent.com/mchirico/177447481b3eeab4f38e0071f26b816f/raw/90b4beb073a803d8a6aee863fc9bcfa945811c17/setpath
+chmod 700 setpath
+./setpath
+cd src/github.com/mchirico
+git clone git@github.com:mchirico/go_test.git
+```
+
+
 
 ```bash
 git checkout tags/v1.1
